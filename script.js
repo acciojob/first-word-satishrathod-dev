@@ -1,4 +1,4 @@
-function firstWord(s) {
+function firstWord(str) {
   // your code here
 	if(str.trim() === ""){
 		return str;
