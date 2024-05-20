@@ -10,7 +10,7 @@ function firstWord(str) {
 		return str;
 	}
 	else{
-		return str.splice(0, firstSpaceIndex);
+		return str.slice(0, firstSpaceIndex);
 	}
 }
 
